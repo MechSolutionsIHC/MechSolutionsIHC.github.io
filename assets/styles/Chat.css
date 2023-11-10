@@ -73,19 +73,21 @@ main{
 }
 
 h2{
-    font-family: 'Roboto';
-    color: #ffff
+    font-family: 'Roboto', 'sans-serif';
+    color: #ffff;
 }
 
 h3{
 text-decoration: underline; 
 font-size: 18px;
-color: #ffff
+color: #ffff;
+font-family: 'Roboto', 'sans-serif';
 }
 
 p{
     font-size: 16px;
-    color: #ffff
+    color: #ffff;
+    font-family: 'Open Sans',"sans-serif";
 }
 
 
