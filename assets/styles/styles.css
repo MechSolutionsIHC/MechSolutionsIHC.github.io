@@ -95,6 +95,10 @@ li a:hover{
     align-items: center;
     justify-content: center;
 }
+.boxSv:hover{
+    box-shadow: 0 0 55px 5px rgba(0, 0, 0, 50%);
+    transition: 1.5s;
+}
 .boxSv img{
     width: 100px;
 }
