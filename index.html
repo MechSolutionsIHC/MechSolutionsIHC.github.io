@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoAI Diagnostic</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
                 <li><a href="Chat.html">Chat</a></li>
                 <li><a href="#">Talleres</a></li>
-                <li><a href="Filtros.html">Filtros</a></li>
+                <div class="BoxLog">
+                    <a href="index.html">
+                        <img src="assets/images/logoInfo.png" alt=" " width="90">
+                    </a>
+                </div>
+                <li><a href="Filtros.html">Reseñas</a></li>
                 <li><a href="#">Feedback</a></li>
             </ul>
         </nav>
@@ -27,21 +33,23 @@
                     <img src="assets/images/Banner.png" class="imgBanner" alt="">
                 </div>
                 <div class="boxB">
-                    <h1>AutoAIDiagnostic</h1>
+                    <h1 class="left"><strong>AutoAI</strong></h1><h1 class="right"><strong>Diagnostic</strong></h1>
                 </div>
-                <div class="ContainerPI">
-                    <div class="boxPI">
-                        <img src="assets/images/NuestraPropuesta.png" alt="">
-                        <h3>Nuestra Propuesta</h3>
-                    </div>
-                    <div class="boxPI">
-                        <img src="assets/images/InfoGeneral.png" alt="">
-                        <h3>Información General</h3>
-                    </div>
-                    <div class="boxPI">
-                        <img src="assets/images/servicios.png" alt="">
-                        <h3>Nuestros Servicios</h3>
-                    </div>
+            </div>
+        </section>
+        <section class="servs">
+            <div class="ContainerServ">
+                <div class="boxSv">
+                    <img src="assets/images/NuestraPropuesta.png" alt="">
+                    <h3>Nuestra Propuesta</h3>
+                </div>
+                <div class="boxSv">
+                    <img src="assets/images/InfoGeneral.png" alt="">
+                    <h3>Información General</h3>
+                </div>
+                <div class="boxSv">
+                    <img src="assets/images/servicios.png" alt="">
+                    <h3>Nuestros Servicios</h3>
                 </div>
             </div>
         </section>
@@ -49,23 +57,25 @@
         <section class="NuestraPropuesta">
             <div class="ContainerNP">
                 <div class="imgNP">
-                    <img src="assets/images/imgNuestraPropuesta1.png" alt="">
-                    <img src="assets/images/imgNuestraPropuesta2.png" alt="">
+                    <img class="img1" src="assets/images/imgNuestraPropuesta1.png" alt="">
                 </div>
-                <div class="BoxNP">
-                    <h2>Nuestra Propuesta</h2>
-                    <p>
-                        Una aplicación de diagnóstico vehicular con inteligencia artificial es una
-                        herramienta digital que utiliza algoritmos y modelos de aprendizaje automático
-                        para analizar y ofrecer diagnósticos de problemas mecánicos y eléctricos en
-                        vehículos. Los usuarios pueden ingresar información sobre los síntomas o problemas
-                        que experimentan en sus automóviles, y la aplicación utiliza la información recopilada
-                        para proporcionar un diagnóstico preciso cuando sea posible. En caso de que la aplicación
-                        no pueda determinar el problema, también ofrece la ubicación y detalles de los talleres
-                        de reparación de automóviles mejor calificados y cercanos, permitiendo a los usuarios
-                        encontrar la asistencia profesional que necesitan.
-                    </p>
+                <div class="imgNP">
+                    <img class="img2" src="assets/images/imgNuestraPropuesta2.png" alt="">
                 </div>
+            </div>
+            <div class="BoxNP">
+                <h2>Nuestra Propuesta</h2>
+                <p>
+                    Una aplicación de diagnóstico vehicular con inteligencia artificial es una
+                    herramienta digital que utiliza algoritmos y modelos de aprendizaje automático
+                    para analizar y ofrecer diagnósticos de problemas mecánicos y eléctricos en
+                    vehículos. Los usuarios pueden ingresar información sobre los síntomas o problemas
+                    que experimentan en sus automóviles, y la aplicación utiliza la información recopilada
+                    para proporcionar un diagnóstico preciso cuando sea posible. En caso de que la aplicación
+                    no pueda determinar el problema, también ofrece la ubicación y detalles de los talleres
+                    de reparación de automóviles mejor calificados y cercanos, permitiendo a los usuarios
+                    encontrar la asistencia profesional que necesitan.
+                </p>
             </div>
         </section>
         <!--INFORMACIÓN GENERAL-->
