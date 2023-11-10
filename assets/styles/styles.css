@@ -153,6 +153,7 @@ li a:hover{
     font-size: 18px;
 }
 
+
 /*INFORMACIÓN GENERAL*/
 .InformacionGeneral {
     padding: 3rem 0;
@@ -227,6 +228,7 @@ li a:hover{
     justify-content: center;
     box-shadow: 0px 0px 55px 5px rgb(0 0 0 /6%);
 }
+
 .boxS img{
     width: 500px;
 }
@@ -247,6 +249,16 @@ li a:hover{
     margin: 0 2rem;
     padding-bottom: .125rem;
     font-size: 18px;
+}
+.Button{
+    background:#de700e;
+    color:#ffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.Button:hover{
+    background-color: #964500;
 }
 /*FOOTER*/
 footer{
