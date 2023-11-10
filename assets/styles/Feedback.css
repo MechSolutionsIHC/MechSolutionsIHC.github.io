@@ -5,10 +5,16 @@
     list-style: none;
     box-sizing: border-box;
 }
+body{
+    background-color: #B5BFC8;
+    color: #333333;
+    font-family: 'Roboto', 'sans-serif';
+}
 header{
     position: sticky;
     top: 0;
     z-index: 1000;
+
 }
 nav {
     background-color: #de700e;
@@ -67,5 +73,14 @@ p{
 
 td img{
     background-color: #de700e;
+}
+/*FOOTER*/
+footer{
+    background-color: #de700e;
+    color: #ffff;
+    font-family: 'Open Sans',"sans-serif";
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
 }
  

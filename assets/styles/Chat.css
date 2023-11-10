@@ -49,11 +49,7 @@ li a:hover{
     background-color: #000000;
     transition: 1.5s;
 }
-body{
-    background-color: white;
-    margin: 0;
-    height: 100vh;
-}
+
 html{
     height: 100%;
 }
@@ -107,5 +103,13 @@ p{
     background-color: #D67300;
     text-align: center;
 }
- 
+/*FOOTER*/
+footer{
+    background-color: #de700e;
+    color: #ffff;
+    font-family: 'Open Sans',"sans-serif";
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
  
