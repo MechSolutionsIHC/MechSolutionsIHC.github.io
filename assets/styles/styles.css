@@ -33,6 +33,7 @@ nav ul {
 }
 nav ul li {
     margin: 0 50px;
+
 }
 nav ul li a {
     font-size: 24px;
@@ -57,18 +58,23 @@ li a:hover{
     height: 68vh;
 
 }
+.imgBanner {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 68vh;
+}
+
 .boxB {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     white-space: nowrap;
+    font-size: 4.5vw;
 }
-.boxB {
-    text-align: center;
-    font-size: 70px;
-}
+
 .left, .right {
     display: inline-block;
 }
@@ -98,6 +104,7 @@ li a:hover{
 .boxSv:hover{
     box-shadow: 0 0 55px 5px rgba(0, 0, 0, 50%);
     transition: 1.5s;
+    cursor: pointer;
 }
 .boxSv img{
     width: 100px;
@@ -132,10 +139,12 @@ li a:hover{
     box-shadow: 0 0 50px 5px rgb(0 0 0 /3%);
 }
 .img1{
-    width: 500px;
+    width: 100%;
+    height: auto;
 }
 .img2{
-    width: 600px;
+    width: 100%;
+    height: auto;
 }
 .BoxNP{
     padding: 2rem 2rem;
@@ -234,7 +243,8 @@ li a:hover{
 }
 
 .boxS img{
-    width: 500px;
+    width: 100%;
+    height: auto;
 }
 .boxS h2{
     margin: 2rem 2rem;
