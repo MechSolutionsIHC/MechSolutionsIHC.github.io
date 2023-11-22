@@ -25,35 +25,51 @@
         </nav>
     </header>
     <main>
-        <table border="1">
-            <tr>
-                <td><h3><b>Reportar Error</h3></b></td>
-                <td><h3><b>Sugerencias</h3></b></td>
-                <td><h3><b>Soporte</h3></b></td>
-            </tr>
-            <tr>
-                <div class="BoxTxt">
-                <td><img src="assets/images/bug.webp" alt="" id="bugImg"></td>
-                <td><img src="assets/images/feedback.webp" alt="" id="feedbackImg"></td>
-                <td><img src="assets/images/support.webp" alt="" id="supportImg"></td>
+        <section class="tableResena">
+            <div class="titulo">
+                <h1>Feedback</h1>
             </div>
-            </tr>
-            <tr>
-                <td><p>¿Algun problema?<br>Haznos saber</p></td>
-                <td><p>¿Que podriamos mejorar?</p></td>
-                <td><p>Contacta nuesto eficiente<br>equipo de soporte</p></td>
-            </tr>
-
-        </table>
-        <div class="cuadro-texto" id="cuadroTexto">
-            <h2>Redacta tu Texto</h2>
-            <textarea rows="4" cols="50" id="texto"></textarea>
-            <button id="cancelarBtn">Cancelar</button>
-            <button id="enviarBtn">Enviar</button>
-        </div>
-
+            <div class="boxT">
+                <table class="tabla">
+                    <tr>
+                        <td><b>Reportar Error</b></td>
+                        <td><b>Sugerencias</b></td>
+                        <td><b>Soporte</b></td>
+                    </tr>
+                    <tr>
+                        <td class="bug"><img src="assets/images/bug.webp" alt=""></td>
+                        <td class="feedback"><img src="assets/images/feedback.webp" alt=""></td>
+                        <td class="support"><img src="assets/images/support.webp" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>¿Algún problema?<br>Háznoslo saber</td>
+                        <td>¿Qué podríamos mejorar?</td>
+                        <td>Contacta nuestro eficiente<br>equipo de soporte</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="containerC">
+                <div class="boxC">
+                    <div class="contentContacto">
+                        <h2>Contáctanos</h2>
+                        <p class="txtBanner">Comunícate con nosotros utilizando el formulario de contacto a continuación. Esperamos con ansias escucharte y ayudarte con tus necesidades de seguridad.</p>
+                    </div>
+                </div>
+                <div class="boxC">
+                    <div class="contenedor">
+                        <form action="" class="form">
+                            <input type="text" class="input" name="" placeholder="Ingrese Nombre" required>
+                            <input type="email" class="input" name="" placeholder="Ingrese Email" required>
+                            <textarea name="" cols="30" rows="10" class="input" placeholder="Ingrese Mensaje" required></textarea>
+                            <input type="submit" class="input" id="btnEnviar" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
     <footer>
         <div class="footer-container">
             <small>
@@ -61,5 +77,6 @@
             </small>
         </div>
     </footer>
+    <script src="assets/scripts/Feedback.js"></script>
 </body>
 </html>
