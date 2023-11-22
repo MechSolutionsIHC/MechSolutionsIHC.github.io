@@ -16,6 +16,7 @@ header{
     z-index: 1000;
 
 }
+
 nav {
     background-color: #de700e;
     height: 100px;
@@ -72,9 +73,11 @@ li a:hover{
 
 }
 .imgFT img{
-    width: 650px;
+    width: 100%;
+    height: auto;
     border-radius: 25px;
 }
+
 .BoxFT{
     padding: 2rem 2rem;
     display: flex;
@@ -101,8 +104,14 @@ li a:hover{
     grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
     grid-gap: 2rem;
 }
-.ContainerFT1, .ContainerFT2 h3{
+.ContainerFT1 h3{
     font-size: 25px;
+    margin: 0 auto;
+}
+.ContainerFT2 h3{
+    font-size: 25px;
+    margin: 0 auto;
+
 }
 .boxFT1{
     padding: 2rem 2rem;
@@ -112,7 +121,6 @@ li a:hover{
     text-align: center;
     background-color: #de700e;
     border-radius: 25px;
-
 }
 
 .ContainerFT2{
