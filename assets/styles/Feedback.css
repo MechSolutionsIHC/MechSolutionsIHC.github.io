@@ -51,19 +51,67 @@ li a:hover{
     transition: 1.5s;
 }
 body{
-    background-color: #37434f;
+    background-color: #B5BFC8;
 }
- 
-h3{
+.titulo{
+    padding: 1rem 2rem;
+    font-weight: bolder;
+    font-size: 25px;
     text-align: center;
-    text-decoration: underline; 
-font-size: 18px;
-color: #ffff
 }
-p{
+.boxS{
+    padding: 2rem 2rem;
+    font-size: 25px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.boxT{
+    display: grid;
+    place-items: center;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+
+}
+table{
+    background-color: transparent;
+    width: 98%;
+    font-size: 25px;
+    text-align: center;
+}
+table, td{
+    font-family: Roboto, serif;
+    border: 5px solid #de700e;
+    border-collapse: collapse;
+    height: 30px;
+    padding: 7px;
+}
+td img{
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+}
+.bug:hover{
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /24%);
+    transition: 1s;
+}
+.feedback:hover{
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /24%);
+    transition: 1s;
+}
+.support:hover{
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0 /24%);
+    transition: 1s;
+}
+.contentContacto h2{
+    color:#ffffff;
+}
+.contentContacto p{
     text-align: center;
     font-size: 16px;
-    color: #ffff
+    color: #ffffff;
 }
 
 .footer-container{
@@ -71,8 +119,87 @@ p{
     text-align: center;
 }
 
-td img{
-    background-color: #de700e;
+
+/*Contacto*/
+.contacto{
+    padding: 3rem 0;
+    background: #80838a;
+}
+.contenedor,
+.wave.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+}
+.containerC{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-gap: 2rem;
+}
+.boxC{
+    overflow: hidden;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentContacto{
+    padding: 2rem 2rem;
+}
+.contentContacto h2{
+    font-size: 40px;
+    padding: 1rem;
+    text-align: center;
+}
+.contentContacto p{
+    padding: 1rem;
+    text-align: left;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input{
+    background-color: #616267;
+    border: 0;
+    color: #ffffff;
+    outline: none;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+.input::placeholder{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+.form textarea{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+    background-color: #DF6429;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #d98157;
 }
 /*FOOTER*/
 footer{
